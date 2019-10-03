@@ -39,6 +39,8 @@
 			isa = PBXGroup;
 			children = (
 				655BDADF23469BF20063F24D /* README.md */,
+				655BDAD723469BC60063F24D /* publish.1.png */,
+				655BDAD923469BC60063F24D /* publish.2.png */,
 				655BDA9E23469B1A0063F24D /* Published-ObservedObject */,
 				655BDA9D23469B1A0063F24D /* Products */,
 			);
@@ -55,8 +57,6 @@
 		655BDA9E23469B1A0063F24D /* Published-ObservedObject */ = {
 			isa = PBXGroup;
 			children = (
-				655BDAD723469BC60063F24D /* publish.1.png */,
-				655BDAD923469BC60063F24D /* publish.2.png */,
 				655BDAD823469BC60063F24D /* PublishedView.swift */,
 				655BDA9F23469B1A0063F24D /* Published_ObservedObject.h */,
 				655BDAA023469B1A0063F24D /* Info.plist */,
