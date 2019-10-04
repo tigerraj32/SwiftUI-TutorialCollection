@@ -4,8 +4,8 @@
 
 - Introduction to SwiftUI- WWDC19
 - Context Menu
-- [State Management](https://github.com/tigerraj32/SwiftUI-TutorialCollection/tree/master/StateManagement)
+- [@State](https://github.com/tigerraj32/SwiftUI-TutorialCollection/tree/master/StateManagement)
 - [@published and @observedObject](https://github.com/tigerraj32/SwiftUI-TutorialCollection/tree/master/Published-ObservedObject)
-- [Environment Object](https://github.com/tigerraj32/SwiftUI-TutorialCollection/tree/master/EnviromentObject) 
-- [Custom View Modifier](https://github.com/tigerraj32/SwiftUI-TutorialCollection/tree/master/CustomViewModifier)
+- [@EnvironmentObject](https://github.com/tigerraj32/SwiftUI-TutorialCollection/tree/master/EnviromentObject) 
+- [ViewModifier](https://github.com/tigerraj32/SwiftUI-TutorialCollection/tree/master/CustomViewModifier)
 
