@@ -29,6 +29,10 @@
 		655BDB932346A16F0063F24D /* WWDC19_Intro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 655BDB912346A16F0063F24D /* WWDC19_Intro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		655BDBA62346A5CD0063F24D /* heritage.json in Resources */ = {isa = PBXBuildFile; fileRef = 655BDBA52346A5CD0063F24D /* heritage.json */; };
 		655BDBA82346A7DC0063F24D /* Heritage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655BDBA72346A7DC0063F24D /* Heritage.xcassets */; };
+		655BDBC3234726BA0063F24D /* BarChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655BDBC2234726BA0063F24D /* BarChartView.framework */; };
+		655BDBC4234726BA0063F24D /* BarChartView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 655BDBC2234726BA0063F24D /* BarChartView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65C6580F2359BF9B00BA05D0 /* RestCallView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C6580E2359BF9B00BA05D0 /* RestCallView.framework */; };
+		65C658102359BF9B00BA05D0 /* RestCallView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65C6580E2359BF9B00BA05D0 /* RestCallView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,12 +42,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				655BDBC4234726BA0063F24D /* BarChartView.framework in Embed Frameworks */,
 				655BDB3F23469D950063F24D /* Published_ObservedObject.framework in Embed Frameworks */,
 				655BDB3D23469D950063F24D /* EnviromentObject.framework in Embed Frameworks */,
 				655BDB3B23469D950063F24D /* CustomViewModifier.framework in Embed Frameworks */,
 				655BDB3923469D950063F24D /* ContextualMenu.framework in Embed Frameworks */,
 				655BDB932346A16F0063F24D /* WWDC19_Intro.framework in Embed Frameworks */,
 				655BDA90234699770063F24D /* StateManagement.framework in Embed Frameworks */,
+				65C658102359BF9B00BA05D0 /* RestCallView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +75,9 @@
 		655BDB912346A16F0063F24D /* WWDC19_Intro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WWDC19_Intro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		655BDBA52346A5CD0063F24D /* heritage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = heritage.json; path = "WWDC19-Intro/WWDC19-Intro/Helper/heritage.json"; sourceTree = SOURCE_ROOT; };
 		655BDBA72346A7DC0063F24D /* Heritage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Heritage.xcassets; path = "WWDC19-Intro/WWDC19-Intro/Heritage.xcassets"; sourceTree = SOURCE_ROOT; };
+		655BDBC2234726BA0063F24D /* BarChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BarChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C657BA2359BD5900BA05D0 /* RestCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = RestCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C6580E2359BF9B00BA05D0 /* RestCallView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RestCallView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +85,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655BDBC3234726BA0063F24D /* BarChartView.framework in Frameworks */,
 				655BDB3E23469D950063F24D /* Published_ObservedObject.framework in Frameworks */,
 				655BDB3C23469D950063F24D /* EnviromentObject.framework in Frameworks */,
 				655BDB3A23469D950063F24D /* CustomViewModifier.framework in Frameworks */,
 				655BDB3823469D950063F24D /* ContextualMenu.framework in Frameworks */,
 				655BDB922346A16F0063F24D /* WWDC19_Intro.framework in Frameworks */,
 				655BDA8F234699770063F24D /* StateManagement.framework in Frameworks */,
+				65C6580F2359BF9B00BA05D0 /* RestCallView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +153,9 @@
 		655BDA8D234699770063F24D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65C6580E2359BF9B00BA05D0 /* RestCallView.framework */,
+				65C657BA2359BD5900BA05D0 /* RestCall.app */,
+				655BDBC2234726BA0063F24D /* BarChartView.framework */,
 				655BDB912346A16F0063F24D /* WWDC19_Intro.framework */,
 				655BDB3423469D950063F24D /* ContextualMenu.framework */,
 				655BDB3523469D950063F24D /* CustomViewModifier.framework */,

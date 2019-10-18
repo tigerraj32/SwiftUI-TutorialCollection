@@ -23,7 +23,9 @@ let tutorialList = [
     WWDC2019Tutorial(name: "Context Menu", tag: "Menu, SwiftUI", hasVideo: false, hasSourceCode: true, index: 1),
     WWDC2019Tutorial(name: "State Management", tag: "@State, @Binding, ObservableObject, @Publish", hasVideo: false, hasSourceCode: true, index: 2),
     WWDC2019Tutorial(name: "Enviroment Object Management", tag: "ObservableObject, @Publish, @EnviromentalObject", hasVideo: false, hasSourceCode: true, index: 3),
-    WWDC2019Tutorial(name: "Custom View Modifier", tag: "ViewModifier, SwiftUI", hasVideo: false, hasSourceCode: true, index: 4)
+    WWDC2019Tutorial(name: "Custom View Modifier", tag: "ViewModifier, SwiftUI", hasVideo: false, hasSourceCode: true, index: 4),
+    WWDC2019Tutorial(name: "Bar Chart", tag: "Custom View, Bar Chart", hasVideo: false, hasSourceCode: true, index: 5),
+    WWDC2019Tutorial(name: "Rest Call", tag: "Rest, Api", hasVideo: false, hasSourceCode: true, index: 6)
 ]
 
 

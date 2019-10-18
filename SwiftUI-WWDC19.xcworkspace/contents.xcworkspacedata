@@ -22,4 +22,10 @@
    <FileRef
       location = "group:CustomViewModifier/CustomViewModifier.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BarChartView/BarChartView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RestCallView/RestCallView.xcodeproj">
+   </FileRef>
 </Workspace>

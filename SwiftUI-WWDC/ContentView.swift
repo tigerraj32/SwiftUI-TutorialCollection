@@ -13,7 +13,8 @@ import Published_ObservedObject
 import EnviromentObject
 import ContextualMenu
 import CustomViewModifier
-
+import BarChartView
+import RestCallView
 
 struct ContentView: View {
     
@@ -28,19 +29,19 @@ struct ContentView: View {
                     TutorialCell(item: item)
                 }
                 
-               
+                
                 
             }
             .navigationBarTitle("WWDC 2019 ")
         }
         
     }
-
+    
     
     func viewSelector(item: WWDC2019Tutorial) -> AnyView {
         
         switch item.index {
-        
+            
         case 0:
             return AnyView(HeritageView())
         case 1:
@@ -49,16 +50,20 @@ struct ContentView: View {
             return AnyView(ParentView())
         case 3:
             return AnyView(EnviromentObjectView())
-        
+            
         case 4:
-                return AnyView(CustomViewModifier())
+            return AnyView(CustomViewModifier())
+        case 5:
+            return AnyView(BarView())
+        case 6:
+            return AnyView(RestCallView())
         default:
-              return AnyView(Text("Hope you are finding this tutorial userful"))
-        
+            return AnyView(Text("Hope you are finding this tutorial userful"))
+            
         }
-             
+        
     }
-     
+    
 }
 
 
