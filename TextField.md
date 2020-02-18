@@ -39,3 +39,17 @@ struct ContentViewTest: View {
     }
 }
 ```
+
+
+## Another way of binding in swiftui
+
+```swift
+            let binding = Binding<String>(get: {
+                    self.someting
+                }, set: {
+                    self.someting = $0
+                    // do whatever you want here
+                    print(self.someting)
+                })
+        
+```
