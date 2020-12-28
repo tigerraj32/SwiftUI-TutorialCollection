@@ -71,3 +71,19 @@ struct CustomViewModifier: View {
 }
 ```
 
+We can also create a `extension` for `Text` to use modifier as below
+
+```swift
+extensoin Text {
+    func roundText(){
+    self.modifier(CustomViewModifier())
+    }
+}
+
+ Text("B").roundText()
+ 
+```
+
+
+
+
